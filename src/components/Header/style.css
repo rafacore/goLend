@@ -1,0 +1,15 @@
+h2{
+    color:#2dce89;
+    font-size: 3rem;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.line{
+    position: absolute;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 65px;
+    z-index: -1;
+   
+}

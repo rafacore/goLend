@@ -1,0 +1,32 @@
+[
+ {
+  "model": "Ascent",
+  "series": "Sport",
+  "variant": "Ascent Sport Sedan 4dr Spts Auto 6sp 2.5i",
+  "new_price": 30090,
+  "from": 614
+},
+
+ {
+  "model": "Ascent",
+  "series": "Sport",
+  "variant": "Ascent Sport Sedan 4dr Spts Auto 6sp 2.5i",
+  "new_price": 30590,
+  "from": 625
+},
+{
+    "model": "Ascent",
+    "series": "Sport",
+    "variant": "Ascent Sport Sedan 4dr Spts Auto 6sp 2.5i",
+    "new_price": 30090,
+    "from": 614
+  },
+  
+   {
+    "model": "Ascent",
+    "series": "Sport",
+    "variant": "Ascent Sport Sedan 4dr Spts Auto 6sp 2.5i",
+    "new_price": 30590,
+    "from": 625
+  }
+]

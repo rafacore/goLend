@@ -1,0 +1,11 @@
+.btn{
+    /* float: left; */
+    width: 250px;
+    margin: 10px 5px;
+    padding: 20px 0;
+    border: 2px solid;
+}
+ul li{
+    list-style: none;
+    float: left;
+}

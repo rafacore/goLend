@@ -1,0 +1,15 @@
+.navbar-nav{
+    margin-left: 70%;
+}
+.navbar-brand img{
+    width: 180px;
+}
+.contactBtn{
+    border: 2px solid #2dce89;
+    border-radius: 25px;
+    padding: 0px 10px;
+
+}
+.nav-item a{
+    color: #2dce89!important;
+}

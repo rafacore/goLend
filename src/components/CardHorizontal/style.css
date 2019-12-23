@@ -1,0 +1,32 @@
+.card-img{
+    float: left;
+    width: 20%;
+}
+.card{
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.card-title{
+    color:#646464;
+    font-weight: bold;
+}
+.card-subtitle{
+    color:#646464;
+   
+
+}
+.card-text{
+    color:#646464;
+    font-weight: bold;
+
+}
+.card-text span{
+    font-size: 30px;
+}
+.priceFrom{
+    color:#2dce89 ;
+}
+.card-body {
+    
+    text-align: center;
+}

@@ -10,8 +10,7 @@ import {
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
-  
+  CardSubtitle
 } from "reactstrap";
 import "./style.css";
 
@@ -21,14 +20,15 @@ const CardHorizontal = ({
   series,
   variant,
   newPrice,
-  priceFrom
+  priceFrom,
+  year
 }) => {
   return (
     <Card>
       <CardImg src={image} alt="Card image cap" />
       <CardBody>
         <CardTitle>
-          {model},{series}{" "}
+          {year},{model},{series}{" "}
         </CardTitle>
         <CardSubtitle>{variant}</CardSubtitle>
         <Row>

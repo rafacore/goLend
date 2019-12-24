@@ -1,46 +1,34 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../Header/Header";
 import "../../styles/global";
 import "./style.css";
 import { Container, Row, Col, Button } from "reactstrap";
+import { YearContext } from "../../yearContext";
 
-import YearsData from "../../../data/years.json";
+// import YearsData from "../../../data/years.json";
 
 function Years() {
-  const[year, setYear] = useState([]);
-  
-  useEffect(() => {
-    const yearSelected = year.year;
-    document.title = `o ano ${yearSelected}`; 
-    
-    
-  } )
+  const [year, setYear] = useContext(YearContext);
+ 
   return (
     <Container>
       <Header text="What year model is the car ?" />
       <Row>
         <Col>
-        <ul>
-          {YearsData.map((item, index) => {
-            // console.log("item",item);
-            //  const yearSelected = year.year;
-            // console.log("year selected ", item);
-            
-            return (
-             
+          <ul>
+            {year.map((item, index) => {
+              return (
                 <li key={index}>
                   <Link to={`/vehicles/${item.year}`}>
                     <Button outline className="btn">
                       {item.year}
                     </Button>
                   </Link>
-                  
                 </li>
-             
-            );
-          })}
-           </ul>
+              );
+            })}
+          </ul>
         </Col>
       </Row>
     </Container>

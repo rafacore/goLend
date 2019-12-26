@@ -1,20 +1,23 @@
 import React from "react";
 import Nav from "./components/NavBar/Nav";
-import Vehicles from "./components/pages/vehicles/Vehicles";
-import Years from "./components/pages/years/Years";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Vehicles from "./containers/vehicles/Vehicles";
+import Years from "./containers/years/Years";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import "./components/styles/global.js";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/styles/global.js";
+
 
 function App() {
   return (
     <div>
       <Router>
         <Nav />
+        <Switch>
+        <Route path="/" exact component={Years} />
         <Route path="/years" exact component={Years} />
-        <Route path="/vehicles/:year" component={Vehicles} />
+        <Route path="/vehicles/:year"  component={Vehicles} />
         {/* <Route path="/years/:id" component={Vehicles} /> */}
+        </Switch>
       </Router>
     </div>
   );

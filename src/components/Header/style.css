@@ -1,15 +1,22 @@
+.container{
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
 h2{
     color:#2dce89;
-    font-size: 3rem;
+    font-size: 3rem !important;
     margin-bottom: 100px;
     text-align: center;
+    font-weight: 750!important;
 }
 
 .line{
     position: absolute;
     width: 100%;
     border: 1px solid rgba(0,0,0,.125);
-    margin-top: 65px;
+    margin-top: 75px;
     z-index: -1;
+    margin-left: -15px;
    
 }

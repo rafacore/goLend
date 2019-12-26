@@ -9,6 +9,8 @@
 .card-title{
     color:#646464;
     font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
 }
 .card-subtitle{
     color:#646464;
@@ -22,6 +24,7 @@
 }
 .card-text span{
     font-size: 30px;
+    font-weight: 900;
 }
 .priceFrom{
     color:#2dce89 ;
@@ -29,4 +32,7 @@
 .card-body {
     
     text-align: center;
+}
+.priceRow{
+    margin-top: 25px;
 }

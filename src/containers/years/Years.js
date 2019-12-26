@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../../Header/Header";
-import "../../styles/global";
+import Header from "../../components/Header/Header";
+import "../../assets/styles/global";
 import "./style.css";
 import { Container, Row, Col, Button } from "reactstrap";
 
-import YearsData from "../../../data/years.json";
+import YearsData from "../../data/years.json";
 
 function Years() {
   return (

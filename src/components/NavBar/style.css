@@ -1,15 +1,32 @@
+.navbar{
+    padding: 1rem!important;
+}
 .navbar-nav{
     margin-left: 70%;
 }
+.navbar-brand{
+    margin-right: 2rem !important;
+}
 .navbar-brand img{
-    width: 180px;
+    width: 165px;
+    
 }
 .contactBtn{
     border: 2px solid #2dce89;
     border-radius: 25px;
     padding: 0px 10px;
+    margin-right: 10px;
+  
 
+}
+.contactBtn img{
+    width: 20px;
+    margin-right: 10px;
 }
 .nav-item a{
     color: #2dce89!important;
+    
+}
+.menuBtn img{
+    width: 30px;
 }

@@ -9,3 +9,7 @@ ul li{
     list-style: none;
     float: left;
 }
+p{
+    margin: 0 auto;
+    color: #d3d3d3;
+}

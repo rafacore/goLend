@@ -1,13 +1,11 @@
-import React, { useContext } from "react";
-import Header from "../../Header/Header";
-import CardHorizontal from "../../CardHorizontal/CardHorizontal";
+import React from "react";
+import Header from "../../components/Header/Header";
+import CardHorizontal from "../../components/CardHorizontal/CardHorizontal";
 import { useParams } from "react-router-dom";
-
-import PostData from "../../../data/posts.json";
-
+import PostData from "../../data/posts.json";
 import { Container, Row, Col } from "reactstrap";
-import "../../styles/global";
-import imgMi from "../../../assets/ser.jpg";
+import "../../assets/styles/global";
+import carPic from "../../assets/car.jpeg";
 import "./style.css";
 
 function Vehicles() {
@@ -21,7 +19,7 @@ function Vehicles() {
           {PostData.map((postDatail, index) => {
             return (
               <CardHorizontal
-                image={imgMi}
+                image={carPic}
                 model={postDatail.model}
                 year={year}
                 series={postDatail.series}
@@ -32,6 +30,10 @@ function Vehicles() {
             );
           })}
         </Col>
+      </Row>
+      <Row>
+      
+      <p>*Excludes on road and govermment costs</p>
       </Row>
     </Container>
   );

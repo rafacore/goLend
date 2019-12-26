@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
+import phoneImg from "../../assets/phone.svg";
+import menuImg from "../../assets/imgMenu.svg";
 import "./style.css";
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
@@ -9,7 +10,7 @@ function Menu() {
     <div>
       <Navbar color="white" light expand="md">
         <NavbarBrand>
-          {" "}
+          
           <Link to="/years">
             <img
               alt="golend-logo"
@@ -19,10 +20,10 @@ function Menu() {
         </NavbarBrand>
         <Nav navbar>
           <NavItem className="contactBtn">
-            <NavLink href="/components/">1300 GoLend</NavLink>
+            <NavLink href=""><img src={phoneImg}/>1300 GoLend</NavLink>
           </NavItem>
-          <NavItem>
-            <NavLink href="/components/">Menu</NavLink>
+          <NavItem className="menuBtn">
+            <NavLink href=""><img src={menuImg}/></NavLink>
           </NavItem>
         </Nav>
       </Navbar>

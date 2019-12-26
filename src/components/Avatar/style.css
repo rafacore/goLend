@@ -1,0 +1,14 @@
+.avatarImg{
+    display: block;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    /* background-image: url('../../assets/ser.jpg'); */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #fff;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom:25px;
+}

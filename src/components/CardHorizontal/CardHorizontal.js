@@ -1,7 +1,4 @@
 import React from "react";
-import Avatar from "../Avatar/Avatar";
-
-import userPic from "../../assets/ser.jpg";
 import {
   Row,
   Col,
@@ -31,7 +28,7 @@ const CardHorizontal = ({
           {year},{model},{series}{" "}
         </CardTitle>
         <CardSubtitle>{variant}</CardSubtitle>
-        <Row>
+        <Row className="priceRow">
           <Col md="6">
             <CardText className="priceNew">
               New <span>$ {newPrice}</span> RRP

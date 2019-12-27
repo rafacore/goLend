@@ -2,7 +2,6 @@
 import React from "react";
 import Avatar from "../Avatar/Avatar";
 import { Container, Row, Col } from "reactstrap";
-// import css
 import "./style.css";
 
 const Header = ({ text, image }) => {

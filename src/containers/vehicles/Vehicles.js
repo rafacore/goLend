@@ -19,6 +19,7 @@ function Vehicles() {
           {PostData.map((postDatail, index) => {
             return (
               <CardHorizontal
+                key={index}
                 image={carPic}
                 model={postDatail.model}
                 year={year}

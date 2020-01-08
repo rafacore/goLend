@@ -20,10 +20,10 @@ function Menu() {
         </NavbarBrand>
         <Nav navbar>
           <NavItem className="contactBtn">
-            <NavLink href=""><img src={phoneImg}/>1300 GoLend</NavLink>
+            <NavLink href=""><img src={phoneImg} alt=" "/>1300 GoLend</NavLink>
           </NavItem>
           <NavItem className="menuBtn">
-            <NavLink href=""><img src={menuImg}/></NavLink>
+            <NavLink href=""><img src={menuImg} alt=" "/></NavLink>
           </NavItem>
         </Nav>
       </Navbar>

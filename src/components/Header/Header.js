@@ -1,5 +1,6 @@
 // import components 
 import React from "react";
+import PropTypes from 'prop-types';
 import Avatar from "../Avatar/Avatar";
 import { Container, Row, Col } from "reactstrap";
 import "./style.css";
@@ -17,5 +18,9 @@ const Header = ({ text, image }) => {
     </Container>
   );
 };
+Header.propTypes = {
+  text: PropTypes.string,
+  
+}
 
 export default Header;

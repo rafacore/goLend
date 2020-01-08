@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import {
   Row,
   Col,
@@ -44,5 +45,15 @@ const CardHorizontal = ({
     </Card>
   );
 };
+CardHorizontal.propTypes = {
+  image: PropTypes.string,
+  year: PropTypes.string,
+  model: PropTypes.string,
+  series: PropTypes.string,
+  variant: PropTypes.string,
+  newPrice: PropTypes.number,
+  priceFrom: PropTypes.number,
+
+}
 
 export default CardHorizontal;
